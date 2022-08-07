@@ -1,0 +1,17 @@
+// start download laravel project 
+ 
+laravel new wap
+
+// OR
+
+composer create-project laravel/laravel wap 7.3      // wap is project name 7.3 is version
+
+// install bootstrap in laravel 
+
+step 1.     composer require laravel/ui
+
+step 2.    php artisan ui bootstrap
+
+step 3.  npm install
+
+step 4.  npm run dev

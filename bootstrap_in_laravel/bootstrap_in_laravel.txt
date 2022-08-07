@@ -1,0 +1,14 @@
+step 1. composer require laravel/ui
+
+step 2. php artisan ui bootstrap
+
+step 3. npm install 
+
+step 4. npm run dev
+
+
+after error npm run dev 
+
+step 1.  npm install --save-dev cross-env
+
+step  2 . npm  run dev

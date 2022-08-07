@@ -1,0 +1,26 @@
+// on local server
+
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=587
+MAIL_USERNAME=lbmadesia8318@gmail.com
+MAIL_PASSWORD=1122@ajay
+MAIL_ENCRYPTION=tls
+MAIL_FROM_ADDRESS=lbmadesia8318@gmail.com
+MAIL_FROM_NAME="${APP_NAME}"
+
+
+
+
+
+// live server
+
+
+MAIL_MAILER=sendmail
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=587
+MAIL_USERNAME=lbmadesia8318@gmail.com
+MAIL_PASSWORD=1122@ajay
+MAIL_ENCRYPTION=tls
+MAIL_FROM_ADDRESS=lbmadesia8318@gmail.com
+MAIL_FROM_NAME="${APP_NAME}"

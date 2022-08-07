@@ -1,0 +1,8 @@
+composer update --ignore-platform-reqs  // if you run 'composer update' you'll get error then run this command
+
+
+//*************** start git neglect command 
+git commit -n -m " Your Commit Details"
+
+// ************** start composer ignore command 
+composer update --ignore-platform-reqs

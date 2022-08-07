@@ -1,0 +1,23 @@
+ Route::resource(
+        'users',
+        'UsersController',
+        [
+            'names' =>
+            [
+                'index' => 'api.users.index',
+                'show' => 'api.users.show',
+                'store' => 'api.users.store',
+                'update' => 'api.users.update',
+                'destroy' => 'api.users.destroy'
+            ],
+            'except' => ['create', 'edit'],
+            'parameters' => ['user' => 'user_id']
+        ]
+    ); // Users resource
+    
+    
+    
+      Route::post('audit/{id}', [
+            'as' => 'asset.audit.store',
+            'uses' => 'Assets\AssetsController@auditStore'
+        ]);

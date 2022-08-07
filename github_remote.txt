@@ -1,0 +1,3 @@
+git remote add origin https://github.com/lbmadesia/Denso.git
+
+git remote set-url origin https://github.com/lbmadesia/laravel_solution_stock.git
